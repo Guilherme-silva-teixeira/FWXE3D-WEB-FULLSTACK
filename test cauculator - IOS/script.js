@@ -36,4 +36,52 @@ function cauculate()
         return 7;
     }
     );
+
+    four.addEventListener("click",
+    function()
+    {
+        display.innerText = "4";
+        return 4;
+    }
+    );
+
+    five.addEventListener("click" , 
+    function()
+    {
+        display.innerText = "5";
+        return 5;
+    }
+    );
+
+    six.addEventListener("click" ,
+    function()
+    {
+        display.innerText = "6";
+        return 6;
+    }
+    );
+
+    one.addEventListener("click",
+    function()
+    {
+        display.innerText = "1";
+        return 1;
+    }
+    );
+
+    two.addEventListener("click" , 
+    function()
+    {
+        display.innerText = "2";
+        return 2;
+    }
+    );
+
+    three.addEventListener("click" ,
+    function()
+    {
+        display.innerText = "3";
+        return 3;
+    }
+    );
 }
