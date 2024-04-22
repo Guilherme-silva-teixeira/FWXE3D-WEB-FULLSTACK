@@ -12,6 +12,11 @@ function cauculate()
     let seven = document.getElementById("A7");
     let eigth = document.getElementById("A8");
     let nine = document.getElementById("A9");
+    let plus = document.getElementById("plus-btn");
+    let minus = document.getElementById("minus-btn");
+    let multiplication = document.getElementById("multiplication-btn");
+    let division = document.getElementById("division-btn");
+    let equals = document.getElementById("equals-btn");
 
     nine.addEventListener("click",
     function()
