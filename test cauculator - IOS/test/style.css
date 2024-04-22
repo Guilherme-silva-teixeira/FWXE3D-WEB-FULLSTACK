@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#appBg
+{
+    height: 420px;
+    width: 313px;
+    background: #000;
+}
+
+.display
+{
+    height: 75px;
+    width: 100%;
+    background: #000;
+    border: 0;
+    color: #fff;
+    text-align: right;
+    font-size: 53px;
+    display: flex;
+    align-items: center;
+    padding-right: 23px;
+}
+
+input[type="button"]
+{
+    height: 67px;
+    width: 67px;
+    margin-top: 7px;
+    margin-left: 1px;
+    border-radius: 50%;
+    border: 0;
+    background: #333;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'nunito',sans-serif;
+    cursor: pointer;
+}
+
+input[type="reset"]
+{
+    height: 67px;
+    width: 67px;
+    margin-left: 1px;
+    border-radius: 50%;
+    border: 0;
+    background: #333;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'nunito',sans-serif;
+    cursor: pointer;
+}
+
+.buttons
+{
+    width: 100%;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+input.orange
+{
+    background: #fa3;
+    color: #000;
+    font-weight: 500;
+}
+
+input.ligth-gray
+{
+    background: #e4e4e4;
+    color: #000;
+}
