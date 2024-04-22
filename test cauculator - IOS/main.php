@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <?php
+    //convert hack to php in this repository lol
+?>
 <body>
     <header></header>
     <section>
