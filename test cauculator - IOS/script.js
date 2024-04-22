@@ -12,4 +12,28 @@ function cauculate()
     let seven = document.getElementById("A7");
     let eigth = document.getElementById("A8");
     let nine = document.getElementById("A9");
+
+    nine.addEventListener("click",
+    function()
+    {
+        display.innerText = "9";
+        return 9;
+    }
+    );
+
+    eigth.addEventListener("click" , 
+    function()
+    {
+        display.innerText = "8";
+        return 8;
+    }
+    );
+
+    seven.addEventListener("click" ,
+    function()
+    {
+        display.innerText = "7";
+        return 7;
+    }
+    );
 }
