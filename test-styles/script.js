@@ -46,3 +46,23 @@ function click() {
 circle.addEventListener("click", click);
 */
 //tentativa:
+//Quando o circulo é clicado ele aumenta de tamanho:
+//tentativa:
+let circle = document.getElementById("circle");
+let circleHeight = parseInt(circle.style.height);
+let circleWidth = parseInt(circle.style.width);
+var colors = ['#f00', '#0f0', '#00f'];
+let colorIndex = 0;
+
+function click() {
+    if (circleHeight < 400 && circleWidth < 400) {
+        circleHeight += 13;
+        circleWidth += 13;
+        circle.style.height = circleHeight + "px";
+        circle.style.width = circleWidth + "px";
+        circle.style.backgroundColor = colors[colorIndex];
+        colorIndex = (colorIndex + 1) % colors.length;
+    }
+}
+
+circle.addEventListener("click", click);
